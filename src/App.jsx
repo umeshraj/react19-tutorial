@@ -10,10 +10,17 @@ import { CandidateProfile } from "./CandidateProfile";
 import { Product } from "./Product";
 import { Greeting } from "./Greeting";
 import { UserCard } from "./UserCard";
+import { CardWrapper } from "./CartWrapper";
 
 function App() {
   return (
     <div>
+      <CardWrapper title="User Profile">
+        <p>Bruce Wayne</p>
+        <p>batman@jl.com</p>
+        <button>Edit profile</button>
+      </CardWrapper>
+
       <UserCard
         props={{
           name: "Diana Prince",
