@@ -1,12 +1,8 @@
 import './App.css'
 
-function Welcome() {
-  return <h2>Welcome, Umesh!</h2>
-}
+import Welcome from './Welcome'
+import Button from './Button'
 
-function Button() {
-  return <button>Click Me!</button>
-}
 
 function App() {
   
