@@ -11,10 +11,13 @@ import { Product } from "./Product";
 import { Greeting } from "./Greeting";
 import { UserCard } from "./UserCard";
 import { CardWrapper } from "./CartWrapper";
+import { UserDetails } from "./UserDetails";
 
 function App() {
   return (
     <div>
+      <UserDetails name="Bruce Wayne" isOnline={true} />
+      <UserDetails name="Clark Kent " isOnline={false} hideOffline={true} />
       <CardWrapper title="User Profile">
         <p>Bruce Wayne</p>
         <p>batman@jl.com</p>
