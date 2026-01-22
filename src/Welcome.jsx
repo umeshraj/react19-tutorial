@@ -1,8 +1,7 @@
-export const Welcome = (props) => {
-  console.log(props);
+export const Welcome = ({ name, alias }) => {
   return (
     <h2>
-      Welcome, {props.name} a.k.a {props.alias}!
+      Welcome, {name} a.k.a {alias}!
     </h2>
   );
 };
