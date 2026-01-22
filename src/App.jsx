@@ -1,26 +1,36 @@
-import './App.css'
+import "./App.css";
 
-import {Welcome} from './Welcome'
-import {Button} from './Button'
-import { Hello, HelloWithoutJSX} from './Hello'
-import { UserProfile } from './UserProfile'
-import { ContactForm } from './ContactForm'
-import { StyledForm } from './StyledForm'
-import { CandidateProfile } from './CandidateProfile' 
+import { Welcome } from "./Welcome";
+import { Button } from "./Button";
+import { Hello, HelloWithoutJSX } from "./Hello";
+import { UserProfile } from "./UserProfile";
+import { ContactForm } from "./ContactForm";
+import { StyledForm } from "./StyledForm";
+import { CandidateProfile } from "./CandidateProfile";
+import { Product } from "./Product";
+
 function App() {
-  
   return (
     <div>
+      <Product
+        title="Gaming laptop"
+        price={1500}
+        inStock={true}
+        categories={["Electronics", "Computers"]}
+      />
+      <Welcome name="Bruce" alias="Batman" />
+      <Welcome name="Clark" alias="Superman" />
+      <Welcome name="Diana" alias="Wonder Woman" />
+
       <CandidateProfile />
-      <StyledForm /> 
+      <StyledForm />
       <ContactForm />
       <UserProfile />
-      <Hello /> 
+      <Hello />
       <HelloWithoutJSX />
-      <Welcome />
-      <Button /> 
+      <Button />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
