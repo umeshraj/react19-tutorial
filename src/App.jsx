@@ -9,10 +9,19 @@ import { StyledForm } from "./StyledForm";
 import { CandidateProfile } from "./CandidateProfile";
 import { Product } from "./Product";
 import { Greeting } from "./Greeting";
+import { UserCard } from "./UserCard";
 
 function App() {
   return (
     <div>
+      <UserCard
+        props={{
+          name: "Diana Prince",
+          age: 28,
+          city: "Themyscira",
+          email: "dp@themyscira.com",
+        }}
+      />
       <Greeting name="Bruce" message="Good morning" />
       <Greeting name="Clark" />
       <Greeting message="Welcome" />
