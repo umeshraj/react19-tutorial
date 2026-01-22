@@ -2,13 +2,14 @@ import './App.css'
 
 import {Welcome} from './Welcome'
 import {Button} from './Button'
-
+import { Hello, HelloWithoutJSX} from './Hello'
 
 function App() {
   
   return (
     <div>
-      <h1>Code evolution! React Course</h1>
+      <Hello /> 
+      <HelloWithoutJSX />
       <Welcome />
       <Button /> 
     </div>
