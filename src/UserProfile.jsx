@@ -1,8 +1,9 @@
+import React from "react"
 export const UserProfile = () => {
     return (
-        <div>
+        <React.Fragment>
             <h1>Convolution React Course</h1>
             <p>Author: Umesh</p>
-        </div>
+        </React.Fragment>
     )
 }
