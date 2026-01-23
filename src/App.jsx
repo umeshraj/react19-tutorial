@@ -20,71 +20,76 @@ import { CustomButton } from "./CustomButton";
 import { Contact } from "./Contact";
 import { Newsletter } from "./Newsletter";
 import { Menu } from "./Menu";
+import { Counter } from "./Counter";
 
 function App() {
   return (
-    <div>
-      <Menu />
-      <Contact />
-      <Newsletter />
-      <CustomButton text="Like" />
-      <CustomButton text="Bookmark " />
-      <Alert> Your changes have been saved successfully!</Alert>
-      <Alert type="error">There was an error processing your request.</Alert>
-      <NewButton />
-      <NameList />
-      <ProductList />
-      <UserDetails
-        name="Bruce Wayne"
-        isOnline={true}
-        isPremium={true}
-        isNewUser={true}
-        role="admin"
-      />
-      <UserDetails
-        name="Clark Kent "
-        isOnline={false}
-        hideOffline={false}
-        role="member"
-      />
-      <CardWrapper title="User Profile">
-        <p>Bruce Wayne</p>
-        <p>batman@jl.com</p>
-        <button>Edit profile</button>
-      </CardWrapper>
+    <>
+      <h1>Codevolution React Course</h1>
+      <Counter />
+    </>
+    // <div>
+    //   <Menu />
+    //   <Contact />
+    //   <Newsletter />
+    //   <CustomButton text="Like" />
+    //   <CustomButton text="Bookmark " />
+    //   <Alert> Your changes have been saved successfully!</Alert>
+    //   <Alert type="error">There was an error processing your request.</Alert>
+    //   <NewButton />
+    //   <NameList />
+    //   <ProductList />
+    //   <UserDetails
+    //     name="Bruce Wayne"
+    //     isOnline={true}
+    //     isPremium={true}
+    //     isNewUser={true}
+    //     role="admin"
+    //   />
+    //   <UserDetails
+    //     name="Clark Kent "
+    //     isOnline={false}
+    //     hideOffline={false}
+    //     role="member"
+    //   />
+    //   <CardWrapper title="User Profile">
+    //     <p>Bruce Wayne</p>
+    //     <p>batman@jl.com</p>
+    //     <button>Edit profile</button>
+    //   </CardWrapper>
 
-      <UserCard
-        props={{
-          name: "Diana Prince",
-          age: 28,
-          city: "Themyscira",
-          email: "dp@themyscira.com",
-        }}
-      />
-      <Greeting name="Bruce" message="Good morning" />
-      <Greeting name="Clark" />
-      <Greeting message="Welcome" />
-      <Greeting />
+    //   <UserCard
+    //     props={{
+    //       name: "Diana Prince",
+    //       age: 28,
+    //       city: "Themyscira",
+    //       email: "dp@themyscira.com",
+    //     }}
+    //   />
+    //   <Greeting name="Bruce" message="Good morning" />
+    //   <Greeting name="Clark" />
+    //   <Greeting message="Welcome" />
+    //   <Greeting />
 
-      <Product
-        title="Gaming laptop"
-        price={1500}
-        inStock={true}
-        categories={["Electronics", "Computers"]}
-      />
+    //   <Product
+    //     title="Gaming laptop"
+    //     price={1500}
+    //     inStock={true}
+    //     categories={["Electronics", "Computers"]}
+    //   />
 
-      <Welcome name="Bruce" alias="Batman" />
-      <Welcome name="Clark" alias="Superman" />
-      <Welcome name="Diana" alias="Wonder Woman" />
+    //   <Welcome name="Bruce" alias="Batman" />
+    //   <Welcome name="Clark" alias="Superman" />
+    //   <Welcome name="Diana" alias="Wonder Woman" />
 
-      <CandidateProfile />
-      <StyledForm />
-      <ContactForm />
-      <UserProfile />
-      <Hello />
-      <HelloWithoutJSX />
-      <Button />
-    </div>
+    //   <CandidateProfile />
+    //   <StyledForm />
+    //   <ContactForm />
+    //   <UserProfile />
+    //   <Hello />
+    //   <HelloWithoutJSX />
+    //   <Button />
+    // </div>
   );
 }
 
