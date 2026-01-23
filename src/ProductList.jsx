@@ -11,17 +11,23 @@ export const ProductList = () => {
     { id: 5, name: "Smartwatch", price: 299 },
   ]; // Example array of products
 
+  const productElements = products
+    .filter((product) => {
+      return product.price >= 500;
+    })
+    .map((product) => {
+      return (
+        <div>
+          <h3>{product.name}</h3>
+          <p>Price: ${product.price}</p>
+        </div>
+      );
+    });
+
   return (
     <div>
       <h2>Product List</h2>
-      {products.map((product) => {
-        return (
-          <div>
-            <h3>{product.name}</h3>
-            <p>Price: ${product.price}</p>
-          </div>
-        );
-      })}
+      {productElements}
     </div>
   );
 };
