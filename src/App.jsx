@@ -14,10 +14,13 @@ import { CardWrapper } from "./CartWrapper";
 import { UserDetails } from "./UserDetails";
 import { ProductList } from "./ProductList";
 import { NameList } from "./NameList";
+import { Alert } from "./Alert";
 
 function App() {
   return (
     <div>
+      <Alert> Your changes have been saved successfully!</Alert>
+      <Alert type="error">There was an error processing your request.</Alert>
       <NameList />
       <ProductList />
       <UserDetails
