@@ -16,10 +16,13 @@ import { ProductList } from "./ProductList";
 import { NameList } from "./NameList";
 import { Alert } from "./Alert";
 import { NewButton } from "./NewButton";
+import { CustomButton } from "./CustomButton";
 
 function App() {
   return (
     <div>
+      <CustomButton text="Like" />
+      <CustomButton text="Bookmark " />
       <Alert> Your changes have been saved successfully!</Alert>
       <Alert type="error">There was an error processing your request.</Alert>
       <NewButton />
