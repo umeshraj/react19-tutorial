@@ -23,12 +23,14 @@ import { Menu } from "./Menu";
 import { Counter } from "./Counter";
 import { LoginCard } from "./LoginCard";
 import { SimpleCounter } from "./SimpleCounter";
+import { PreviousStateCounter } from "./PreviousStateCounter";
 
 function App() {
   return (
     <>
       <h1>Codevolution React Course</h1>
-      <SimpleCounter />
+      <PreviousStateCounter />
+      {/* <SimpleCounter /> */}
       {/* <Counter /> */}
       {/* <LoginCard /> */}
     </>
