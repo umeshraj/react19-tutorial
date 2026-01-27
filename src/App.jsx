@@ -25,12 +25,14 @@ import { LoginCard } from "./LoginCard";
 import { SimpleCounter } from "./SimpleCounter";
 import { PreviousStateCounter } from "./PreviousStateCounter";
 import { BatchingCounter } from "./BatchingCounter";
+import { UserProfile2 } from "./UserProfile2";
 
 function App() {
   return (
     <>
       <h1>Codevolution React Course</h1>
-      <BatchingCounter />
+      <UserProfile2 />
+      {/* <BatchingCounter /> */}
       {/* <PreviousStateCounter /> */}
       {/* <SimpleCounter /> */}
       {/* <Counter /> */}
