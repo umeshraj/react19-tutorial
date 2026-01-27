@@ -26,12 +26,14 @@ import { SimpleCounter } from "./SimpleCounter";
 import { PreviousStateCounter } from "./PreviousStateCounter";
 import { BatchingCounter } from "./BatchingCounter";
 import { UserProfile2 } from "./UserProfile2";
+import { ToDoList } from "./ToDoList";
 
 function App() {
   return (
     <>
       <h1>Codevolution React Course</h1>
-      <UserProfile2 />
+      <ToDoList />
+      {/* <UserProfile2 /> */}
       {/* <BatchingCounter /> */}
       {/* <PreviousStateCounter /> */}
       {/* <SimpleCounter /> */}
