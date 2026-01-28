@@ -29,12 +29,16 @@ import { UserProfile2 } from "./UserProfile2";
 import { ToDoList } from "./ToDoList";
 import { ShoppingCart } from "./ShoppingCart";
 import { CounterWithReducer } from "./CounterWithReducer";
+import { ShoppingCartWithReducer } from "./ShoppingCartWithReducer";
+import { CounterWithInit } from "./CounterWithInit";
 
 function App() {
   return (
     <>
       <h1>Codevolution React Course</h1>
-      <CounterWithReducer />
+      <CounterWithInit />
+      {/* <ShoppingCartWithReducer /> */}
+      {/* <CounterWithReducer /> */}
       {/* <ShoppingCart /> */}
       {/* <ToDoList /> */}
       {/* <UserProfile2 /> */}
