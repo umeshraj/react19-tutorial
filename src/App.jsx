@@ -2,15 +2,17 @@ import "./App.css";
 import { Header } from "./Header";
 import { useState } from "react";
 import { UserContextProvider } from "./UserContextProvider";
+import { StopWatch } from "./StopWatch";
 
 function App() {
   return (
-    <UserContextProvider>
-      <div>
-        <h1>Dashboard</h1>
-        <Header />
-      </div>
-    </UserContextProvider>
+    <StopWatch />
+    // <UserContextProvider>
+    //   <div>
+    //     <h1>Dashboard</h1>
+    //     <Header />
+    //   </div>
+    // </UserContextProvider>
   );
 }
 
