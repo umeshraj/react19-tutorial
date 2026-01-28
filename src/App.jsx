@@ -31,12 +31,14 @@ import { ShoppingCart } from "./ShoppingCart";
 import { CounterWithReducer } from "./CounterWithReducer";
 import { ShoppingCartWithReducer } from "./ShoppingCartWithReducer";
 import { CounterWithInit } from "./CounterWithInit";
+import { CustomCounter } from "./CustomCounter";
 
 function App() {
   return (
     <>
       <h1>Codevolution React Course</h1>
-      <CounterWithInit />
+      <CustomCounter />
+      {/* <CounterWithInit /> */}
       {/* <ShoppingCartWithReducer /> */}
       {/* <CounterWithReducer /> */}
       {/* <ShoppingCart /> */}
