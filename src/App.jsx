@@ -3,10 +3,12 @@ import { Header } from "./Header";
 import { useState } from "react";
 import { UserContextProvider } from "./UserContextProvider";
 import { StopWatch } from "./StopWatch";
+import { FocusInput } from "./FocusInput";
 
 function App() {
   return (
-    <StopWatch />
+    <FocusInput />
+    // <StopWatch />
     // <UserContextProvider>
     //   <div>
     //     <h1>Dashboard</h1>
