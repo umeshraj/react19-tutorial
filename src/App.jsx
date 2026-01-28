@@ -27,12 +27,14 @@ import { PreviousStateCounter } from "./PreviousStateCounter";
 import { BatchingCounter } from "./BatchingCounter";
 import { UserProfile2 } from "./UserProfile2";
 import { ToDoList } from "./ToDoList";
+import { ShoppingCart } from "./ShoppingCart";
 
 function App() {
   return (
     <>
       <h1>Codevolution React Course</h1>
-      <ToDoList />
+      <ShoppingCart />
+      {/* <ToDoList /> */}
       {/* <UserProfile2 /> */}
       {/* <BatchingCounter /> */}
       {/* <PreviousStateCounter /> */}
